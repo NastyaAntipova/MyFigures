@@ -151,6 +151,11 @@ namespace View
         {
 
         }
+
+        private void XBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
         
     }
 }

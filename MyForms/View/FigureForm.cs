@@ -22,13 +22,13 @@ namespace View
         }
 
         public IFigure Figure { get { return FigureControl.Figure; } }
-
+        // Кнопка открыть
         private void OkButton_Click(object sender, EventArgs e)
         {
             DialogResult = DialogResult.OK;
             Close();
         }
-
+        // Кнопка закрыть
         private void CancelButton_Click(object sender, EventArgs e)
         {
             DialogResult = DialogResult.Cancel;
