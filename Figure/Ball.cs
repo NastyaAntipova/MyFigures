@@ -22,7 +22,7 @@ namespace Figure
            set
            {
                if (value < 0)
-                   throw new ArgumentException();
+               throw new ArgumentException();   
                _radius = value;
            }
        }

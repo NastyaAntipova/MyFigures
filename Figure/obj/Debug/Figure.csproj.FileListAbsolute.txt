@@ -14,3 +14,11 @@ F:\СПО\Лаб 2\Figure\obj\Debug\Figure.dll
 F:\СПО\Лаб 2\Figure\obj\Debug\Figure.pdb
 F:\СПО\Лаб 2\Figure\obj\Debug\Figure.csprojResolveAssemblyReference.cache
 D:\СПО\Лаб 2\Figure\obj\Debug\Figure.csprojResolveAssemblyReference.cache
+F:\СПО\FigureRepository\Figure\bin\Debug\Figure.dll.config
+F:\СПО\FigureRepository\Figure\bin\Debug\Figure.dll
+F:\СПО\FigureRepository\Figure\bin\Debug\Figure.pdb
+F:\СПО\FigureRepository\Figure\obj\Debug\Figure.csprojResolveAssemblyReference.cache
+F:\СПО\FigureRepository\Figure\obj\Debug\Figure.Properties.Resources.resources
+F:\СПО\FigureRepository\Figure\obj\Debug\Figure.csproj.GenerateResource.Cache
+F:\СПО\FigureRepository\Figure\obj\Debug\Figure.dll
+F:\СПО\FigureRepository\Figure\obj\Debug\Figure.pdb

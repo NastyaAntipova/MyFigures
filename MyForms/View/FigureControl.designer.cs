@@ -119,6 +119,7 @@
             this.BallBox.Name = "BallBox";
             this.BallBox.Size = new System.Drawing.Size(100, 20);
             this.BallBox.TabIndex = 3;
+            this.BallBox.TextChanged += new System.EventHandler(this.BallBox_TextChanged);
             // 
             // PyrBox
             // 

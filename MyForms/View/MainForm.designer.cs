@@ -110,21 +110,21 @@
             // OpenItem
             // 
             this.OpenItem.Name = "OpenItem";
-            this.OpenItem.Size = new System.Drawing.Size(152, 22);
+            this.OpenItem.Size = new System.Drawing.Size(132, 22);
             this.OpenItem.Text = "Открыть";
             this.OpenItem.Click += new System.EventHandler(this.OpenItem_Click);
             // 
             // SaveItem
             // 
             this.SaveItem.Name = "SaveItem";
-            this.SaveItem.Size = new System.Drawing.Size(152, 22);
+            this.SaveItem.Size = new System.Drawing.Size(132, 22);
             this.SaveItem.Text = "Сохранить";
             this.SaveItem.Click += new System.EventHandler(this.SaveItem_Click);
             // 
             // ExitItem
             // 
             this.ExitItem.Name = "ExitItem";
-            this.ExitItem.Size = new System.Drawing.Size(152, 22);
+            this.ExitItem.Size = new System.Drawing.Size(132, 22);
             this.ExitItem.Text = "Выйти";
             this.ExitItem.Click += new System.EventHandler(this.ExitItem_Click);
             // 

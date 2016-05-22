@@ -30,3 +30,18 @@ F:\СПО\Лаб 2\MyForms\View\bin\Debug\Newtonsoft.Json.xml
 F:\СПО\Лаб 2\MyForms\View\bin\Debug\View.exe.CodeAnalysisLog.xml
 F:\СПО\Лаб 2\MyForms\View\bin\Debug\View.exe.lastcodeanalysissucceeded
 D:\СПО\Лаб 2\MyForms\View\obj\Debug\View.MainForm.resources
+F:\СПО\FigureRepository\MyForms\View\bin\Debug\View.exe.config
+F:\СПО\FigureRepository\MyForms\View\obj\Debug\View.exe
+F:\СПО\FigureRepository\MyForms\View\obj\Debug\View.pdb
+F:\СПО\FigureRepository\MyForms\View\bin\Debug\View.exe
+F:\СПО\FigureRepository\MyForms\View\bin\Debug\View.pdb
+F:\СПО\FigureRepository\MyForms\View\bin\Debug\Figure.dll
+F:\СПО\FigureRepository\MyForms\View\bin\Debug\Newtonsoft.Json.dll
+F:\СПО\FigureRepository\MyForms\View\bin\Debug\Figure.pdb
+F:\СПО\FigureRepository\MyForms\View\bin\Debug\Newtonsoft.Json.xml
+F:\СПО\FigureRepository\MyForms\View\obj\Debug\View.csprojResolveAssemblyReference.cache
+F:\СПО\FigureRepository\MyForms\View\obj\Debug\View.FigureControl.resources
+F:\СПО\FigureRepository\MyForms\View\obj\Debug\View.FigureForm.resources
+F:\СПО\FigureRepository\MyForms\View\obj\Debug\View.MainForm.resources
+F:\СПО\FigureRepository\MyForms\View\obj\Debug\View.Properties.Resources.resources
+F:\СПО\FigureRepository\MyForms\View\obj\Debug\View.csproj.GenerateResource.Cache

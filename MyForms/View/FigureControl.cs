@@ -156,6 +156,11 @@ namespace View
         {
 
         }
+
+        private void BallBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
         
     }
 }
