@@ -1,0 +1,9 @@
+F:\СПО\FigureRepository\MyForms\UnitTests\bin\Debug\UnitTests.dll
+F:\СПО\FigureRepository\MyForms\UnitTests\bin\Debug\UnitTests.pdb
+F:\СПО\FigureRepository\MyForms\UnitTests\bin\Debug\nunit.framework.dll
+F:\СПО\FigureRepository\MyForms\UnitTests\bin\Debug\nunit.framework.xml
+F:\СПО\FigureRepository\MyForms\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
+F:\СПО\FigureRepository\MyForms\UnitTests\obj\Debug\UnitTests.dll
+F:\СПО\FigureRepository\MyForms\UnitTests\obj\Debug\UnitTests.pdb
+F:\СПО\FigureRepository\MyForms\UnitTests\bin\Debug\Figure.dll
+F:\СПО\FigureRepository\MyForms\UnitTests\bin\Debug\Figure.pdb
