@@ -15,9 +15,22 @@ namespace Figure
         public int Y { get; set; }
         public int Z { get; set; }
 
-        private int _h; // Высота пирамиды 
-        
-        private int _S; // Площадь основания
+        public string Name
+        {
+            get
+            {
+                return "Пирамида";
+            }
+        }
+        /// <summary>
+        /// Высота пирамиды
+        /// </summary>
+        private int _h;
+
+        /// <summary>
+        /// Площадь основания
+        /// </summary>
+        private int _S; 
 
         public int h 
         {
@@ -48,7 +61,19 @@ namespace Figure
         }
         public double CalculateVolume()
         {
-            return (1 / 3) * S * h;
+            return (1.0 / 3.0) * S * h;
         }
+
+         public Pyramid(double S, double H)
+        {
+            S = _S;
+            h = _h;
+        }
+
+        public Pyramid()
+        {
+          
+        }
+
     }    
 }

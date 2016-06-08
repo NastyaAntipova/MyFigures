@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.OkButton = new System.Windows.Forms.Button();
-            this.CancelButton = new System.Windows.Forms.Button();
+            this.objectControl1 = new Model_View.ObjectControl();
             this.SuspendLayout();
             // 
             // OkButton
             // 
             this.OkButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.OkButton.Location = new System.Drawing.Point(140, 496);
+            this.OkButton.Location = new System.Drawing.Point(12, 315);
             this.OkButton.Name = "OkButton";
             this.OkButton.Size = new System.Drawing.Size(75, 23);
             this.OkButton.TabIndex = 0;
@@ -43,23 +43,20 @@
             this.OkButton.UseVisualStyleBackColor = true;
             this.OkButton.Click += new System.EventHandler(this.OkButton_Click);
             // 
-            // CancelButton
+            // objectControl1
             // 
-            this.CancelButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.CancelButton.Location = new System.Drawing.Point(221, 496);
-            this.CancelButton.Name = "CancelButton";
-            this.CancelButton.Size = new System.Drawing.Size(75, 23);
-            this.CancelButton.TabIndex = 1;
-            this.CancelButton.Text = "Cancel";
-            this.CancelButton.UseVisualStyleBackColor = true;
-            this.CancelButton.Click += new System.EventHandler(this.CancelButton_Click);
+            this.objectControl1.Figure = null;
+            this.objectControl1.Location = new System.Drawing.Point(3, 12);
+            this.objectControl1.Name = "objectControl1";
+            this.objectControl1.Size = new System.Drawing.Size(312, 302);
+            this.objectControl1.TabIndex = 1;
             // 
             // FigureForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(308, 531);
-            this.Controls.Add(this.CancelButton);
+            this.ClientSize = new System.Drawing.Size(332, 350);
+            this.Controls.Add(this.objectControl1);
             this.Controls.Add(this.OkButton);
             this.Name = "FigureForm";
             this.Text = "FigureForm";
@@ -71,6 +68,7 @@
         #endregion
 
         private System.Windows.Forms.Button OkButton;
-        private System.Windows.Forms.Button CancelButton;
+        private Model_View.ObjectControl objectControl1;
+        //private System.Windows.Forms.Button CancelButton;
     }
 }

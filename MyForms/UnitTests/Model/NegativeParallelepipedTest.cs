@@ -12,7 +12,8 @@ namespace UnitTests.Model
     class NegativeParallelepipedTest
     {
         [Test]
-        [TestCase(-6, TestName = "Тестирование Count при присваивании -1.")]
+        [TestCase(-6, TestName = "Тестирование Count при присваивании -6")]
+        [TestCase(-1, TestName = "Тестирование Count при присваивании -1")]
         public void ParallTest(int a)
         {
             var parallel = new Parallelepiped();

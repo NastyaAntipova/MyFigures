@@ -1,0 +1,8 @@
+F:\СПО\FigureRepository\Figure\bin\Release\Figure.dll.config
+F:\СПО\FigureRepository\Figure\bin\Release\Figure.dll
+F:\СПО\FigureRepository\Figure\bin\Release\Figure.pdb
+F:\СПО\FigureRepository\Figure\obj\Release\Figure.csprojResolveAssemblyReference.cache
+F:\СПО\FigureRepository\Figure\obj\Release\Figure.Properties.Resources.resources
+F:\СПО\FigureRepository\Figure\obj\Release\Figure.csproj.GenerateResource.Cache
+F:\СПО\FigureRepository\Figure\obj\Release\Figure.dll
+F:\СПО\FigureRepository\Figure\obj\Release\Figure.pdb

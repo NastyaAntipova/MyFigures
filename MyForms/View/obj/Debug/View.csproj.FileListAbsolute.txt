@@ -45,3 +45,7 @@ F:\СПО\FigureRepository\MyForms\View\obj\Debug\View.FigureForm.resources
 F:\СПО\FigureRepository\MyForms\View\obj\Debug\View.MainForm.resources
 F:\СПО\FigureRepository\MyForms\View\obj\Debug\View.Properties.Resources.resources
 F:\СПО\FigureRepository\MyForms\View\obj\Debug\View.csproj.GenerateResource.Cache
+F:\СПО\FigureRepository\MyForms\View\obj\Debug\Model_View.BallControll.resources
+F:\СПО\FigureRepository\MyForms\View\obj\Debug\Model_View.ObjectControl.resources
+F:\СПО\FigureRepository\MyForms\View\obj\Debug\Model_View.ParallelepipedContrloll.resources
+F:\СПО\FigureRepository\MyForms\View\obj\Debug\Model_View.PiramidControll.resources

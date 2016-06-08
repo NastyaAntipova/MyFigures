@@ -13,20 +13,32 @@ namespace View
 {
     public partial class FigureForm : Form
     {
-        private FigureControl FigureControl = new FigureControl();
+
+        public IFigure Figures { get; set; }
 
         public FigureForm()
         {
             InitializeComponent();
-            this.Controls.Add(FigureControl);
+     
         }
 
-        public IFigure Figure { get { return FigureControl.Figure; } }
         // Кнопка открыть
         private void OkButton_Click(object sender, EventArgs e)
         {
-            DialogResult = DialogResult.OK;
-            Close();
+            try
+            {
+                Figures = objectControl1.figure;
+                DialogResult = DialogResult.OK;
+                Close();
+            }
+
+            catch (Exception)
+            {
+                {
+                    MessageBox.Show("Введены не все значения!");
+                }
+            }
+
         }
         // Кнопка закрыть
         private void CancelButton_Click(object sender, EventArgs e)

@@ -15,7 +15,9 @@ namespace Figure
         int Y { get; set; }
         int Z { get; set; }
 
+        string Name {get;}
         double CalculateVolume();
+      
         //int Count { get; set; }
     }
 }

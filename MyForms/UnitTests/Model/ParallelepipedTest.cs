@@ -16,6 +16,7 @@ namespace UnitTests.Model
     public class ParallelepipedTest
     {
         [TestCase(2, 5, 10, 100)]
+        [TestCase(1, 5, 5, 25)]
         public void CalculateVolume(int a, int b, int c, int expected)
         {
             var parallel = new Parallelepiped();

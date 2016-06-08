@@ -12,7 +12,8 @@ namespace UnitTests.Model
     public class NegativePyramidTest
     {
         [Test]
-        [TestCase(-1, TestName = "Тестирование Count при присваивании -1.")]
+        [TestCase(-1, TestName = "Тестирование при присваивании -1.")]
+        [TestCase(-100, TestName = "Тестирование при присваивании -100.")]
         public void PyramidTes(int S)
         {
             var pyr = new Pyramid();

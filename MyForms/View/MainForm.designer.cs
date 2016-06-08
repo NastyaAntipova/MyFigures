@@ -44,7 +44,7 @@
             // ButtonCreate
             // 
             this.ButtonCreate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.ButtonCreate.Location = new System.Drawing.Point(21, 402);
+            this.ButtonCreate.Location = new System.Drawing.Point(12, 361);
             this.ButtonCreate.Name = "ButtonCreate";
             this.ButtonCreate.Size = new System.Drawing.Size(75, 23);
             this.ButtonCreate.TabIndex = 3;
@@ -55,7 +55,7 @@
             // ButtonModify
             // 
             this.ButtonModify.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.ButtonModify.Location = new System.Drawing.Point(92, 402);
+            this.ButtonModify.Location = new System.Drawing.Point(185, 361);
             this.ButtonModify.Name = "ButtonModify";
             this.ButtonModify.Size = new System.Drawing.Size(75, 23);
             this.ButtonModify.TabIndex = 4;
@@ -66,7 +66,7 @@
             // ButtonRemove
             // 
             this.ButtonRemove.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.ButtonRemove.Location = new System.Drawing.Point(164, 402);
+            this.ButtonRemove.Location = new System.Drawing.Point(367, 361);
             this.ButtonRemove.Name = "ButtonRemove";
             this.ButtonRemove.Size = new System.Drawing.Size(75, 23);
             this.ButtonRemove.TabIndex = 5;
@@ -81,7 +81,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.TableFigure.Location = new System.Drawing.Point(12, 27);
             this.TableFigure.Name = "TableFigure";
-            this.TableFigure.Size = new System.Drawing.Size(593, 369);
+            this.TableFigure.Size = new System.Drawing.Size(430, 328);
             this.TableFigure.TabIndex = 6;
             this.TableFigure.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.TableFigure_CellContentClick);
             // 
@@ -91,7 +91,7 @@
             this.MenuItem});
             this.s.Location = new System.Drawing.Point(0, 0);
             this.s.Name = "s";
-            this.s.Size = new System.Drawing.Size(617, 24);
+            this.s.Size = new System.Drawing.Size(454, 24);
             this.s.TabIndex = 7;
             this.s.Text = "Меню";
             this.s.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.Menu_ItemClicked);
@@ -103,28 +103,28 @@
             this.SaveItem,
             this.ExitItem});
             this.MenuItem.Name = "MenuItem";
-            this.MenuItem.Size = new System.Drawing.Size(53, 20);
-            this.MenuItem.Text = "Меню";
+            this.MenuItem.Size = new System.Drawing.Size(56, 20);
+            this.MenuItem.Text = "Опции";
             this.MenuItem.Click += new System.EventHandler(this.MenuItem_Click);
             // 
             // OpenItem
             // 
             this.OpenItem.Name = "OpenItem";
-            this.OpenItem.Size = new System.Drawing.Size(132, 22);
+            this.OpenItem.Size = new System.Drawing.Size(152, 22);
             this.OpenItem.Text = "Открыть";
             this.OpenItem.Click += new System.EventHandler(this.OpenItem_Click);
             // 
             // SaveItem
             // 
             this.SaveItem.Name = "SaveItem";
-            this.SaveItem.Size = new System.Drawing.Size(132, 22);
+            this.SaveItem.Size = new System.Drawing.Size(152, 22);
             this.SaveItem.Text = "Сохранить";
             this.SaveItem.Click += new System.EventHandler(this.SaveItem_Click);
             // 
             // ExitItem
             // 
             this.ExitItem.Name = "ExitItem";
-            this.ExitItem.Size = new System.Drawing.Size(132, 22);
+            this.ExitItem.Size = new System.Drawing.Size(152, 22);
             this.ExitItem.Text = "Выйти";
             this.ExitItem.Click += new System.EventHandler(this.ExitItem_Click);
             // 
@@ -132,14 +132,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(617, 437);
+            this.ClientSize = new System.Drawing.Size(454, 396);
             this.Controls.Add(this.TableFigure);
             this.Controls.Add(this.ButtonRemove);
             this.Controls.Add(this.ButtonModify);
             this.Controls.Add(this.ButtonCreate);
             this.Controls.Add(this.s);
             this.Name = "MainForm";
-            this.Text = "Form1";
+            this.Text = "Объем Фигур";
             ((System.ComponentModel.ISupportInitialize)(this.TableFigure)).EndInit();
             this.s.ResumeLayout(false);
             this.s.PerformLayout();

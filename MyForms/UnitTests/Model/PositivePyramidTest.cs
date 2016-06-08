@@ -12,7 +12,8 @@ namespace UnitTests.Model
     public class PositivePyramidTest
     {
         [Test]
-        [TestCase(4, 3, TestName = "Тестирование Count при присваивании значений.")]
+        [TestCase(4, 3, TestName = "Тестирование при присваивании значений 3,4")]
+        [TestCase(1, 7, TestName = "Тестирование при присваивании значений 1,7")]
         public void PosPyramidTest(int S, int h)
         {
             {

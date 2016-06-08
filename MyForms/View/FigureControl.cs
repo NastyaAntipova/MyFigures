@@ -13,8 +13,6 @@ namespace View
 {
     public partial class FigureControl : UserControl
     {
-        private IFigure _figure;
-
         public FigureControl()
         {
             InitializeComponent();

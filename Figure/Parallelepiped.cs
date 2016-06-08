@@ -14,10 +14,27 @@ namespace Figure
         public int Y { get; set; }
         public int Z { get; set; }
 
+
+        public string Name
+        {
+            get
+            {
+                return "Параллелепипед";
+            }
+        }
+        /// <summary>
+        /// Сторона А
+        /// </summary>
         private int _a;
 
+        /// <summary>
+        /// Сторона В
+        /// </summary>
         private int _b;
 
+        /// <summary>
+        /// Сторона С
+        /// </summary>
         private int _c;
 
         public int a
@@ -64,5 +81,19 @@ namespace Figure
         {
             return a*b*c;
         }
+
+        public Parallelepiped(int A, int B, int C)
+        {
+            _a= A;
+            _b= B;
+            _c = C;
+        }
+
+        public Parallelepiped()
+        {
+
+        }
+
+
     }
 }
